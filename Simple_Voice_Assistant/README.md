@@ -34,5 +34,11 @@ This is a simple Python-based Voice Assistant that can:
 
 - pip install speechrecognition pyttsx3 pywhatkit random
 
+---
+
+## 🚀 How to Run
+
+- python run main.py
+
 
 
