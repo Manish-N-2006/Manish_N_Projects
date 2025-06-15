@@ -38,7 +38,21 @@ This is a simple Python-based Voice Assistant that can:
 
 ## 🚀 How to Run
 
-- python run main.py
+- python main.py
+
+---
+
+## 📝 Notes
+- Ensure your microphone is connected and working
+- For WhatsApp messaging:
+  - You must be logged into WhatsApp Web
+  - Phone number must include the country code (e.g., +91xxxxxxxxxx)
+
+- Works best in a quiet environment
+
+
+👨‍💻 Author
+Manish N
 
 
 
