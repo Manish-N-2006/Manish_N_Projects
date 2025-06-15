@@ -13,7 +13,7 @@ gcost=0
 
 
 
-conn=mc.connect(user='root',host='localhost',password='manishrajan',database='tourism_portal_fi')
+conn=mc.connect(user='root',host='localhost',password='your_password',database='tourism_portal_fi')
 cursor=conn.cursor()
 pw='kmm'
 
