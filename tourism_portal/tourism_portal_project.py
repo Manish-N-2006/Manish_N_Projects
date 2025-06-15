@@ -3,6 +3,9 @@ from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 from datetime import date
 from tabulate import tabulate as t
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 yl=''
 de=''
@@ -13,7 +16,7 @@ gcost=0
 
 
 
-conn=mc.connect(user='root',host='localhost',password='your_password',database='tourism_portal_fi')
+conn=mc.connect(user='root',host='localhost',password=os.getenv("DB_PASSWORD"),database='tourism_portal_fi')
 cursor=conn.cursor()
 pw='kmm'
 
