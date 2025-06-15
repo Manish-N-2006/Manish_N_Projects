@@ -319,11 +319,13 @@ def user_menu():
 
             #distance
             
-            # Initialize the geocoder
-            geolocator = Nominatim(user_agent="distance_calculator")
+            
+            geolocator = Nominatim(user_agent="distance_calculator") # Initialize the geocoder
+            
             # Get user input for the two locations
             location1 = yl
             location2 = de
+            
             # Geocode the locations to get latitude and longitude
             location1_coords = geolocator.geocode(location1)
             location2_coords = geolocator.geocode(location2)
@@ -335,18 +337,6 @@ def user_menu():
             print(f"The distance between {location1} and {location2} is approximately {distance_km:.2f} kilometers.")
 
             
-
-            #picture
-            
-            #import matplotlib.pyplot as plt
-            #import matplotlib.image as mpimg
-            # Load the image using matplotlib.image.imread
-            #img = mpimg.imread(r'D:\New folder\New folder\ronaldo.jpg')
-            # Display the image using matplotlib.pyplot.imshow
-            #plt.imshow(img)
-            #plt.axis('off')  # Turn off axis labels and ticks
-            #plt.show()
-
 
 
 
