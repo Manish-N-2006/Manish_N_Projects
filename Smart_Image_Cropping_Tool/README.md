@@ -1,4 +1,4 @@
-🌟 Smart Image Cropping Tool 
+#🌟 Smart Image Cropping Tool 
 
 - A simple and user-friendly desktop tool built using Python, OpenCV, and CustomTkinter for cropping and saving images with custom file names.
 
@@ -6,7 +6,7 @@
   
 ---
 
-🚀 Features
+##🚀 Features
 - 📁 Select any .jpg, .jpeg, or .png image
 - ✂️ Crop the image interactively using your mouse
 - 💾 Save the cropped image with your desired file name
@@ -14,7 +14,7 @@
 
 ---
 
-🧠 Tech Stack
+##🧠 Tech Stack
 
 - Python 3.10
 - OpenCV (cv2)
@@ -22,19 +22,19 @@
 
 ---
 
-🖼️ Interface Preview
+#🖼️ Interface Preview
 - A modern, centered, and clean interface with dark theme support.
 - Buttons and labels are styled with CustomTkinter for a rich UI experience.
 
 ---
 
-🛠 Requirements
+#🛠 Requirements
 
 - pip install customtkinter opencv-python
 
 ---
 
-💡 How It Works
+#💡 How It Works
 
 - Launch the tool.
 - Click the “Select the image For Cropping !!” button.
@@ -45,13 +45,13 @@
 
 ---
 
-📦 How to Run
+#📦 How to Run
 
 python main.py
 
 ---
 
-🧑‍💻 Author
+#🧑‍💻 Author
   - Manish N
 
  
