@@ -1,4 +1,5 @@
-🌟 Smart Image Cropping Tool 🌟
+🌟 Smart Image Cropping Tool 
+
 - A simple and user-friendly desktop tool built using Python, OpenCV, and CustomTkinter for cropping and saving images with custom file names.
 
 - Perfect for quick image cropping tasks without the need for heavy image editing software.
