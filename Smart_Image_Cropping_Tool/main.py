@@ -2,7 +2,6 @@ import tkinter as t
 from tkinter import filedialog
 import customtkinter as ctk
 import cv2
-import threading
 
 root = ctk.CTk()
 ro=t.Tk()
@@ -32,8 +31,7 @@ def save():
        error_label = ctk.CTkLabel(frame, text="⚠ Please enter a valid name!", text_color="red", font=("Arial", 13))
        error_label.grid(row=6, column=0, pady=15)
    
-def run_crop_thread():
-    threading.Thread(target=crop_image).start()
+
 
 def crop_image():
     b1.grid_forget()
@@ -62,7 +60,7 @@ def crop_image():
     b2.grid(row=8,column=0,pady=10)
     
 
-b1 = ctk.CTkButton(frame,text="🖼 Select the image For Cropping !!",command=run_crop_thread,fg_color="Blue", hover_color="Green", font=("Arial", 20, "bold"), corner_radius=15)
+b1 = ctk.CTkButton(frame,text="🖼 Select the image For Cropping !!",command=crop_image,fg_color="Blue", hover_color="Green", font=("Arial", 20, "bold"), corner_radius=15)
 b1.grid(row=5,column=0,pady=40)
 
 root.mainloop()
